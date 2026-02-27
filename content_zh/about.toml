@@ -1,11 +1,15 @@
+
+
 type = "about"
-title = "关于我"
+title = "关于"
 
 [profile]
 research_interests = [
-  "计算物理",
-  "数学原理",
-  "定理证明"
+  "物理海洋学",
+  "海洋数值模拟",
+  "海洋热浪",
+  "海气相互作用",
+  # "人工智能",
 ]
 
 [[sections]]
@@ -14,15 +18,15 @@ type = "markdown"
 source = "bio.md"
 title = "关于我"
 
-[[sections]]
-id = "featured_publications"
-type = "publications"
-title = "精选论文"
-filter = "selected"
-limit = 5
+# [[sections]]
+# id = "featured_publications"
+# type = "publications"
+# title = "代表性论著"
+# filter = "selected"
+# limit = 5
 
 [[sections]]
 id = "news"
 type = "list"
-title = "动态"
+title = "近期动态"
 source = "news.toml"

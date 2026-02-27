@@ -1,52 +1,85 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "王佳顺"
+description = "学术主页"
+favicon = "/favicon.svg"
+last_updated = "2025年12月18日"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "王佳顺"
+title = "理学硕士"
+institution = "哈尔滨工程大学"
+avatar = "/bio.jpg"
 
 [social]
-location = "城市，国家"
+# 联系信息 (留空或删除则不显示)
+
+email = "wjs@ieee.org"
+location = "中国 山东 青岛"
+location_url = "https://maps.google.com"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "青岛市崂山区仙霞岭路6号,",
+  "自然资源部第一海洋研究所"
 ]
+google_scholar = "https://scholar.google.com/citations?user=wWfLsaIAAAAJ"
+orcid = "https://orcid.org/0000-0002-6442-9258"
+github = "https://github.com/jiashun-wang"
+linkedin = "https://www.linkedin.com/in/wangjiashun/"
+
+[features]
+# 在关于页面显示点赞按钮
+enable_likes = true
+
+# 在单页上显示所有子页面
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "zh"
+# "auto" 表示语言环境将由浏览器的语言设置决定，"fixed" 表示语言环境将固定为默认语言环境 (但仍可切换，如果想禁用，请设置 "enable=false")
+mode = "auto"
+fixed_locale = "zh"
+# 如果为 true，PRISM 将在浏览器的 localStorage 中记住用户的语言偏好
+persist = true
+# 在右上角显示语言切换器
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
 
 [[navigation]]
-title = "关于我"
+title = "关于"
 type = "page"
 target = "about"
 href = "/"
 
 [[navigation]]
-title = "论文"
+title = "论著"
 type = "page"
 target = "publications"
 href = "/publications"
 
-[[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
+# [[navigation]]
+# title = "教学"
+# type = "page"
+# target = "teaching"
+# href = "/teaching"
 
 [[navigation]]
-title = "奖项"
+title = "荣誉奖项"
 type = "page"
 target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "服务"
+title = "学术服务"
 type = "page"
 target = "services"
 href = "/services"
 
 [[navigation]]
-title = "简历"
+title = "个人简历"
 type = "page"
 target = "cv"
 href = "/cv"

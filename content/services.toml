@@ -1,9 +1,9 @@
 type = "card"
-title = "Services"
-description = "Professional services and community involvement."
+title = "学术服务"
+description = "专业服务与学术社区参与"
 
 [[items]]
-title = "IEEE member"
-subtitle = "member"
-date = "2022 - Present"
-content = "member"
+title = "IEEE 会员"
+subtitle = "会员"
+date = "2022 - 至今"
+content = "会员"
