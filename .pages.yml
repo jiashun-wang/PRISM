@@ -4,12 +4,6 @@ media:
    input: public
    output: /
 
- - name: bib
-   label: bib
-   input: public/bib
-   output: /
-
-
 #  - name: cv
 #    label: CV
 #    input: public/cv
@@ -48,10 +42,10 @@ content:
     type: file
     path: content/news.toml
 
-  - name: content
-    label: Content
-    type: collection
-    path: content
+  # - name: content
+  #   label: Content
+  #   type: collection
+  #   path: content
 
 #中文内容
 
@@ -70,7 +64,7 @@ content:
     type: file
     path: content_zh/news.toml
 
-  - name: content_zh
-    label: 内容
-    type: collection
-    path: content_zh
+  # - name: content_zh
+  #   label: 内容
+  #   type: collection
+  #   path: content_zh
