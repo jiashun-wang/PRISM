@@ -1,0 +1,31 @@
+media:
+ - name: images
+   label: images
+   input: public/images
+   output: /images
+   category: images
+
+ - name: cv
+   label: CV
+   input: public/cv
+   output: /cv
+   category: document
+
+ - name: papers
+   label: Papers
+   input: public/papers
+   output: /papers
+   category: document
+
+ - name: icons
+   label: Icons
+   input: public
+   output: /
+   category: images
+
+
+content:
+  - name: bio
+    label: Bio
+    type: file
+    path: content/bio.md

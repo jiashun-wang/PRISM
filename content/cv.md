@@ -1,4 +1,4 @@
-[Download CV (June 2025)](/resume_jswang.pdf)
+[Download CV (June 2025)](/cv/resume_jswang.pdf)
 
 ## Education
 
