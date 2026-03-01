@@ -4,6 +4,11 @@ media:
    input: public
    output: /
 
+ - name: bib
+   label: bib
+   input: public/bib
+   output: /
+
 
 #  - name: cv
 #    label: CV
@@ -27,6 +32,7 @@ media:
 content:
 
 #英文内容
+
   - name: bio
     label: Bio
     type: file
@@ -42,4 +48,29 @@ content:
     type: file
     path: content/news.toml
 
+  - name: content
+    label: Content
+    type: collection
+    path: content
+
 #中文内容
+
+  - name: 自我介绍
+    label: Bio
+    type: file
+    path: content_zh/bio.md
+
+  - name: 简历
+    label: CV
+    type: file
+    path: content_zh/cv.md
+
+  - name: 动态
+    label: News
+    type: file
+    path: content_zh/news.toml
+
+  - name: 内容
+    label: Content
+    type: collection
+    path: content_zh
