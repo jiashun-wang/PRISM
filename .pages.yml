@@ -1,31 +1,45 @@
 media:
- - name: images
-   label: images
-   input: public/images
-   output: /images
-   category: images
-
- - name: cv
-   label: CV
-   input: public/cv
-   output: /cv
-   category: document
-
- - name: papers
-   label: Papers
-   input: public/papers
-   output: /papers
-   category: document
-
- - name: icons
-   label: Icons
+ - name: assets
+   label: assets
    input: public
    output: /
-   category: images
+
+
+#  - name: cv
+#    label: CV
+#    input: public/cv
+#    output: /cv
+#    category: document
+
+#  - name: papers
+#    label: Papers
+#    input: public/papers
+#    output: /papers
+#    category: document
+
+#  - name: icons
+#    label: Icons
+#    input: public
+#    output: /
+#    category: images
 
 
 content:
+
+#英文内容
   - name: bio
     label: Bio
     type: file
     path: content/bio.md
+
+  - name: cv
+    label: CV
+    type: file
+    path: content/cv.md
+
+  - name: news
+    label: News
+    type: file
+    path: content/news.toml
+
+#中文内容
