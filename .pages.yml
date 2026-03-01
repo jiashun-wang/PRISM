@@ -55,22 +55,22 @@ content:
 
 #中文内容
 
-  - name: 自我介绍
-    label: Bio
+  - name: bio_zh
+    label: 自我介绍
     type: file
     path: content_zh/bio.md
 
-  - name: 简历
-    label: CV
+  - name: cv_zh
+    label: 简历
     type: file
     path: content_zh/cv.md
 
-  - name: 动态
-    label: News
+  - name: news_zh
+    label: 新闻
     type: file
     path: content_zh/news.toml
 
-  - name: 内容
-    label: Content
+  - name: content_zh
+    label: 内容
     type: collection
     path: content_zh
