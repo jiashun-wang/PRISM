@@ -1,0 +1,10 @@
+type = "card"
+title = "Technology"
+description = "Technology projects"
+
+[[items]]
+title = "Example Course"
+subtitle = "Teaching Assistant"
+date = "2024"
+content = "Description of the course and responsibilities."
+tags = ["Undergraduate", "CS"]
